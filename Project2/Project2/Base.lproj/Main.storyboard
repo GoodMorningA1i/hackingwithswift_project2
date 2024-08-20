@@ -16,34 +16,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFh-DZ-H5C">
-                                <rect key="frame" x="96" y="100" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYZ-iI-QmA">
+                                <rect key="frame" x="84.666666666666686" y="244" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYZ-iI-QmA">
-                                <rect key="frame" x="96" y="230" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUn-UZ-8ZL">
+                                <rect key="frame" x="84.666666666666686" y="388" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUn-UZ-8ZL">
-                                <rect key="frame" x="96" y="360" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EFh-DZ-H5C">
+                                <rect key="frame" x="84.666666666666686" y="100" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="tUn-UZ-8ZL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="HWB-dA-nSG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="EFh-DZ-H5C" secondAttribute="top" constant="3" id="Oec-pv-Z8h"/>
-                            <constraint firstItem="EFh-DZ-H5C" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UEZ-7D-Vmb"/>
-                            <constraint firstItem="HYZ-iI-QmA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="127" id="cR4-iq-tbf"/>
-                            <constraint firstItem="HYZ-iI-QmA" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hyW-Mz-ScC"/>
-                            <constraint firstItem="tUn-UZ-8ZL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="257" id="x14-7H-bxY"/>
+                            <constraint firstItem="tUn-UZ-8ZL" firstAttribute="top" secondItem="HYZ-iI-QmA" secondAttribute="bottom" constant="30" id="1x0-kX-TEJ"/>
+                            <constraint firstItem="tUn-UZ-8ZL" firstAttribute="centerX" secondItem="HYZ-iI-QmA" secondAttribute="centerX" id="TzK-Vx-bvE"/>
+                            <constraint firstItem="EFh-DZ-H5C" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Vtp-zk-OuK"/>
+                            <constraint firstItem="HYZ-iI-QmA" firstAttribute="centerX" secondItem="EFh-DZ-H5C" secondAttribute="centerX" id="alV-Bo-Kav"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="EFh-DZ-H5C" secondAttribute="top" constant="3" id="fqp-JT-hY7"/>
+                            <constraint firstItem="HYZ-iI-QmA" firstAttribute="top" secondItem="EFh-DZ-H5C" secondAttribute="bottom" constant="30" id="vhR-UH-QhF"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cNA-kB-OrP"/>
+                    <connections>
+                        <outlet property="button1" destination="EFh-DZ-H5C" id="lgd-5L-sZy"/>
+                        <outlet property="button2" destination="HYZ-iI-QmA" id="LET-QO-f0h"/>
+                        <outlet property="button3" destination="tUn-UZ-8ZL" id="rcz-gF-zUy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -69,6 +74,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="us" width="200" height="100"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
