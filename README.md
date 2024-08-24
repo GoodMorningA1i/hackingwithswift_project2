@@ -4,9 +4,9 @@
 
 ## About the Project
 
-An flag guessing iOS game! You have 3 random flags, the name of the country on the top, and you have to guess the correct flag for the named country. Your score is 
+An flag guessing iOS game! You have 3 random flags, the name of the country on the top, and you have to guess the correct flag for the named country. Your score is also calculated and displayed at the top of the screen for convenience. User-friendly features have also been implemented like being indicated the correct country if the user selects the wrong country.
 
-This project covers topics like ...
+This project revisits topics like the Interface Builder, Auto Layout, and Outlets. Some new topics that are covered are @2 and @3 images, asset catalogs, UIButton, CALayer, UIColor, random numbers, actions, and UIAlertController.
 
 ### Built With
 
